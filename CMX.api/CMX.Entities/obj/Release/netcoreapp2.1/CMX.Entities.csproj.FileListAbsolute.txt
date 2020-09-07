@@ -1,0 +1,12 @@
+M:\TuanDN\HTC\SHB-master\CMX.api\CMX.Entities\bin\Release\netcoreapp2.1\CMX.Entities.deps.json
+M:\TuanDN\HTC\SHB-master\CMX.api\CMX.Entities\bin\Release\netcoreapp2.1\CMX.Entities.dll
+M:\TuanDN\HTC\SHB-master\CMX.api\CMX.Entities\bin\Release\netcoreapp2.1\CMX.Entities.pdb
+M:\TuanDN\HTC\SHB-master\CMX.api\CMX.Entities\bin\Release\netcoreapp2.1\Newtonsoft.Json.dll
+M:\TuanDN\HTC\SHB-master\CMX.api\CMX.Entities\bin\Release\netcoreapp2.1\Newtonsoft.Json.xml
+M:\TuanDN\HTC\SHB-master\CMX.api\CMX.Entities\obj\Release\netcoreapp2.1\CMX.Entities.csprojAssemblyReference.cache
+M:\TuanDN\HTC\SHB-master\CMX.api\CMX.Entities\obj\Release\netcoreapp2.1\CMX.Entities.AssemblyInfoInputs.cache
+M:\TuanDN\HTC\SHB-master\CMX.api\CMX.Entities\obj\Release\netcoreapp2.1\CMX.Entities.AssemblyInfo.cs
+M:\TuanDN\HTC\SHB-master\CMX.api\CMX.Entities\obj\Release\netcoreapp2.1\CMX.Entities.csproj.CoreCompileInputs.cache
+M:\TuanDN\HTC\SHB-master\CMX.api\CMX.Entities\obj\Release\netcoreapp2.1\CMX.Entities.csproj.CopyComplete
+M:\TuanDN\HTC\SHB-master\CMX.api\CMX.Entities\obj\Release\netcoreapp2.1\CMX.Entities.dll
+M:\TuanDN\HTC\SHB-master\CMX.api\CMX.Entities\obj\Release\netcoreapp2.1\CMX.Entities.pdb

@@ -1,0 +1,825 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CMX.api</name>
+    </assembly>
+    <members>
+        <member name="T:CMX.api.Controllers.AccountCollateralController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CMX.api.Controllers.AccountCollateralController.#ctor(CMX.Entities.Models.Works.CWorksContext,Microsoft.Extensions.Configuration.IConfiguration,Microsoft.Extensions.Logging.ILogger{CMX.api.Controllers.AccountCollateralController})">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CMX.api.Controllers.AccountCollateralController.Get(System.Int32,System.Int32)">
+            <summary>
+            Get
+            </summary>
+            <response code="200">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthentication</response>
+            <response code="404">Not Found</response>
+            <response code="500">Have Error</response>
+        </member>
+        <member name="M:CMX.api.Controllers.AccountCollateralController.GetList(System.Int32)">
+            <summary>
+            GetList
+            </summary>
+            <response code="200">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthentication</response>
+            <response code="404">Not Found</response>
+            <response code="500">Have Error</response>
+        </member>
+        <member name="T:CMX.api.Controllers.AccountController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CMX.api.Controllers.AccountController.#ctor(CMX.Entities.Models.Works.CWorksContext,Microsoft.Extensions.Configuration.IConfiguration,Microsoft.Extensions.Logging.ILogger{CMX.api.Controllers.AccountController})">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CMX.api.Controllers.AccountController.GetAccountById(System.Int32)">
+            <summary>
+            GetAccountById
+            </summary>
+            <response code="200">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthentication</response>
+            <response code="404">Not Found</response>
+            <response code="500">Have Error</response>
+        </member>
+        <member name="M:CMX.api.Controllers.AccountController.GetAccountForReview(System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            GetAccountForReview
+            </summary>
+            <response code="200">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthentication</response>
+            <response code="404">Not Found</response>
+            <response code="500">Have Error</response>
+        </member>
+        <member name="M:CMX.api.Controllers.AccountController.GetAccountList">
+            <summary>
+            GetAccountList
+            </summary>
+            <response code="200">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthentication</response>
+            <response code="404">Not Found</response>
+            <response code="500">Have Error</response>
+        </member>
+        <member name="M:CMX.api.Controllers.AccountController.GetAccountSWD(System.Int32,System.Int32)">
+            <summary>
+            GetAccountSWD
+            </summary>
+            <response code="200">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthentication</response>
+            <response code="404">Not Found</response>
+            <response code="500">Have Error</response>
+        </member>
+        <member name="T:CMX.api.Controllers.AccountWorkplanController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CMX.api.Controllers.AccountWorkplanController.#ctor(CMX.Entities.Models.Works.CWorksContext,Microsoft.Extensions.Configuration.IConfiguration,Microsoft.Extensions.Logging.ILogger{CMX.api.Controllers.AccountWorkplanController})">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CMX.api.Controllers.AccountWorkplanController.FilterAccountWorkplanByParams(CMX.Entities.Models.POST.AccountWorkplanListFilterByParamsRequest)">
+            <summary>
+            FilterAccountWorkplanByParams
+            </summary>
+            <response code="200">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthentication</response>
+            <response code="404">Not Found</response>
+            <response code="500">Have Error</response>
+        </member>
+        <member name="M:CMX.api.Controllers.AccountWorkplanController.GetAccountWorkplanById(System.Int32)">
+            <summary>
+            GetAccountWorkplanById
+            </summary>
+            <response code="200">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthentication</response>
+            <response code="404">Not Found</response>
+            <response code="500">Have Error</response>
+        </member>
+        <member name="M:CMX.api.Controllers.AccountWorkplanController.GetAccountWorkplanList">
+            <summary>
+            GetAccountWorkplanList
+            </summary>
+            <response code="200">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthentication</response>
+            <response code="404">Not Found</response>
+            <response code="500">Have Error</response>
+        </member>
+        <member name="T:CMX.api.Controllers.ActivityController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CMX.api.Controllers.ActivityController.#ctor(CMX.Entities.Models.Works.CWorksContext,Microsoft.Extensions.Configuration.IConfiguration,Microsoft.Extensions.Logging.ILogger{CMX.api.Controllers.ActivityController})">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+            <param name="configuration"></param>
+            <param name="logger"></param>
+        </member>
+        <member name="M:CMX.api.Controllers.ActivityController.GetActionList(System.String)">
+            <summary>
+            GetActionList
+            </summary>
+            <response code="200">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthentication</response>
+            <response code="404">Not Found</response>
+            <response code="500">Have Error</response>
+        </member>
+        <member name="M:CMX.api.Controllers.ActivityController.GetActionOtherByCodeType(System.Int32)">
+            <summary>
+            GetActionOtherByCodeType
+            </summary>
+            <response code="200">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthentication</response>
+            <response code="404">Not Found</response>
+            <response code="500">Have Error</response>
+        </member>
+        <member name="M:CMX.api.Controllers.ActivityController.GetActionOtherList">
+            <summary>
+            GetActionOtherList
+            </summary>
+            <response code="200">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthentication</response>
+            <response code="404">Not Found</response>
+            <response code="500">Have Error</response>
+        </member>
+        <member name="M:CMX.api.Controllers.ActivityController.GetDetailComment(System.Int32,System.Int32)">
+            <summary>
+            GetDetailComment
+            </summary>
+            <response code="200">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthentication</response>
+            <response code="404">Not Found</response>
+            <response code="500">Have Error</response>
+        </member>
+        <member name="M:CMX.api.Controllers.ActivityController.GetDetailCommentList">
+            <summary>
+            GetDetailCommentList
+            </summary>
+            <response code="200">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthentication</response>
+            <response code="404">Not Found</response>
+            <response code="500">Have Error</response>
+        </member>
+        <member name="M:CMX.api.Controllers.ActivityController.GetDetailDescription(System.Int32)">
+            <summary>
+            GetDetailDescription
+            </summary>
+            <response code="200">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthentication</response>
+            <response code="404">Not Found</response>
+            <response code="500">Have Error</response>
+        </member>
+        <member name="M:CMX.api.Controllers.ActivityController.GetDetailDescriptionList">
+            <summary>
+            GetDetailDescriptionList
+            </summary>
+            <response code="200">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthentication</response>
+            <response code="404">Not Found</response>
+            <response code="500">Have Error</response>
+        </member>
+        <member name="M:CMX.api.Controllers.ActivityController.GetResultProcessingRuleAction">
+            <summary>
+            GetResultProcessingRuleAction
+            </summary>
+            <response code="200">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthentication</response>
+            <response code="404">Not Found</response>
+            <response code="500">Have Error</response>
+        </member>
+        <member name="M:CMX.api.Controllers.ActivityController.GetResultProcessingRuleCriteria">
+            <summary>
+            GetResultProcessingRuleCriteria
+            </summary>
+            <response code="200">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthentication</response>
+            <response code="404">Not Found</response>
+            <response code="500">Have Error</response>
+        </member>
+        <member name="M:CMX.api.Controllers.ActivityController.InsertAction(CMX.Entities.Models.POST.AccountActionsInsertRequest)">
+            <summary>
+            InsertAction
+            </summary>
+            <response code="200">Success</response>
+            <response code="201">Created</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthentication</response>
+            <response code="500">Have Error</response>
+        </member>
+        <member name="M:CMX.api.Controllers.ActivityController.InsertActionOther(CMX.Entities.Models.POST.AccountActionsOtherInsertRequest)">
+            <summary>
+            InsertActionOther
+            </summary>
+            <response code="200">Success</response>
+            <response code="201">Created</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthentication</response>
+            <response code="500">Have Error</response>
+        </member>
+        <member name="M:CMX.api.Controllers.ActivityController.InsertNotes(CMX.Entities.Models.POST.NotesCurrentInsertRequest)">
+            <summary>
+            InsertNotes
+            </summary>
+            <response code="200">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthentication</response>
+            <response code="500">Have Error</response>
+        </member>
+        <member name="M:CMX.api.Controllers.ActivityController.UpdateAccount(CMX.Entities.Models.POST.AccountUpdateRequest)">
+            <summary>
+            UpdateAccount
+            </summary>
+            <response code="200">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthentication</response>
+            <response code="500">Have Error</response>
+        </member>
+        <member name="M:CMX.api.Controllers.ActivityController.UpdateStatus(System.Int32,CMX.Entities.Models.POST.StatusUpdateRequest)">
+            <summary>
+            UpdateStatus
+            </summary>
+            <response code="200">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthentication</response>
+            <response code="500">Have Error</response>
+        </member>
+        <member name="T:CMX.api.Controllers.AuthController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CMX.api.Controllers.AuthController.#ctor(CMX.Entities.Models.Works.CWorksContext,CMX.Entities.Models.Core.CoreContext,Microsoft.Extensions.Configuration.IConfiguration,Microsoft.Extensions.Logging.ILogger{CMX.api.Controllers.AuthController})">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CMX.api.Controllers.AuthController.Login(CMX.Entities.Models.POST.LoginRequest)">
+            <summary>
+            Login
+            </summary>
+            <response code="200">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthentication</response>
+            <response code="500">Have Error</response>
+        </member>
+        <member name="M:CMX.api.Controllers.AuthController.InsertLogAttempt(CMX.Entities.Models.POST.InsertLogAttemptRequest)">
+            <summary>
+            InsertLogAttempt
+            </summary>
+            <response code="200">Success</response>
+            <response code="201">Created</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthentication</response>
+            <response code="500">Have Error</response>
+        </member>
+        <member name="M:CMX.api.Controllers.AuthController.InsertLoginLog(CMX.Entities.Models.POST.InsertLoginLogRequest)">
+            <summary>
+            InsertLoginLog
+            </summary>
+            <response code="200">Success</response>
+            <response code="201">Created</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthentication</response>
+            <response code="500">Have Error</response>
+        </member>
+        <member name="M:CMX.api.Controllers.AuthController.UpdateLoginLog(CMX.Entities.Models.POST.UpdateLoginLogRequest)">
+            <summary>
+            UpdateLoginLog
+            </summary>
+            <response code="200">Success</response>
+            <response code="201">Created</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthentication</response>
+            <response code="500">Have Error</response>
+        </member>
+        <member name="M:CMX.api.Controllers.AuthController.UpdateOnlineStatus(CMX.Entities.Models.POST.UpdateOnlineStatusRequest)">
+            <summary>
+            UpdateOnlineStatus
+            </summary>
+            <response code="200">Success</response>
+            <response code="201">Created</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthentication</response>
+            <response code="500">Have Error</response>
+        </member>
+        <member name="T:CMX.api.Controllers.BaseController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CMX.api.Controllers.BaseController.#ctor(CMX.Entities.Models.Works.CWorksContext,Microsoft.Extensions.Configuration.IConfiguration,Microsoft.Extensions.Logging.ILogger{CMX.api.Controllers.BaseController})">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CMX.api.Controllers.BaseController.#ctor(CMX.Entities.Models.Works.CWorksContext,CMX.Entities.Models.Core.CoreContext,Microsoft.Extensions.Configuration.IConfiguration,Microsoft.Extensions.Logging.ILogger{CMX.api.Controllers.BaseController})">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CMX.api.Controllers.BaseController.WriteLog(System.String)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CMX.api.Controllers.BaseController.WriteLog(System.Exception,System.String,Microsoft.Extensions.Logging.LogLevel,System.Boolean)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:CMX.api.Controllers.CustomerController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CMX.api.Controllers.CustomerController.#ctor(CMX.Entities.Models.Works.CWorksContext,Microsoft.Extensions.Configuration.IConfiguration,Microsoft.Extensions.Logging.ILogger{CMX.api.Controllers.ActivityController})">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CMX.api.Controllers.CustomerController.UpdateAddress(System.Int32,CMX.Entities.Models.POST.CustomerAddressUpdateRequest)">
+            <summary>
+            UpdateAddress
+            </summary>
+            <response code="200">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthentication</response>
+            <response code="500">Have Error</response>
+        </member>
+        <member name="T:CMX.api.Controllers.HomeController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CMX.api.Controllers.HomeController.#ctor(CMX.Entities.Models.Works.CWorksContext,Microsoft.Extensions.Configuration.IConfiguration,Microsoft.Extensions.Logging.ILogger{CMX.api.Controllers.HomeController})">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CMX.api.Controllers.HomeController.FilterAccountListByParams(CMX.Entities.Models.POST.HomeAccountListFilterByParamsRequest)">
+            <summary>
+            FilterAccountListByParams
+            </summary>
+            <response code="200">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthentication</response>
+            <response code="500">Have Error</response>
+        </member>
+        <member name="M:CMX.api.Controllers.HomeController.FilterWorkplanToDoListByParams(CMX.Entities.Models.POST.HomeTodoListFilterByParamsRequest)">
+            <summary>
+            FilterWorkplanToDoListByParams
+            </summary>
+            <response code="200">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthentication</response>
+            <response code="500">Have Error</response>
+        </member>
+        <member name="M:CMX.api.Controllers.HomeController.GetActionList">
+            <summary>
+            GetActionList
+            </summary>
+            <response code="200">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthentication</response>
+            <response code="404">Not found</response>
+            <response code="500">Have Error</response>
+        </member>
+        <member name="M:CMX.api.Controllers.HomeController.GetActionListByEmployee(System.Int32)">
+            <summary>
+            GetActionListByEmployee
+            </summary>
+            <response code="200">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthentication</response>
+            <response code="404">Not found</response>
+            <response code="500">Have Error</response>
+        </member>
+        <member name="M:CMX.api.Controllers.HomeController.GetFilterWorkplanToDoList(System.String,System.Int32)">
+            <summary>
+            GetFilterWorkplanToDoList
+            </summary>
+            <response code="200">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthentication</response>
+            <response code="404">Not found</response>
+            <response code="500">Have Error</response>
+        </member>
+        <member name="M:CMX.api.Controllers.HomeController.GetrWorkplanToDoList">
+            <summary>
+            GetrWorkplanToDoList
+            </summary>
+            <response code="200">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthentication</response>
+            <response code="404">Not found</response>
+            <response code="500">Have Error</response>
+        </member>
+        <member name="M:CMX.api.Controllers.HomeController.GetTodayBucketOfAccount(System.String)">
+            <summary>
+            GetTodayBucketOfAccount
+            </summary>
+            <response code="200">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthentication</response>
+            <response code="404">Not found</response>
+            <response code="500">Have Error</response>
+        </member>
+        <member name="T:CMX.api.Controllers.NotesController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CMX.api.Controllers.NotesController.#ctor(CMX.Entities.Models.Works.CWorksContext,Microsoft.Extensions.Configuration.IConfiguration,Microsoft.Extensions.Logging.ILogger{CMX.api.Controllers.NotesController})">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CMX.api.Controllers.NotesController.FilterByParams(System.Int32,System.Int32,System.String)">
+            <summary>
+            FilterByParams
+            </summary>
+            <response code="200">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthentication</response>
+            <response code="404">Not found</response>
+            <response code="500">Have Error</response>
+        </member>
+        <member name="M:CMX.api.Controllers.NotesController.FilterByParams2(CMX.Entities.Models.POST.NotesFilterByParamsRequest)">
+            <summary>
+            FilterByParams2
+            </summary>
+            <response code="200">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthentication</response>
+            <response code="404">Not found</response>
+            <response code="500">Have Error</response>
+        </member>
+        <member name="M:CMX.api.Controllers.NotesController.GetAll">
+            <summary>
+            GetAll
+            </summary>
+            <response code="200">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthentication</response>
+            <response code="404">Not found</response>
+            <response code="500">Have Error</response>
+        </member>
+        <member name="T:CMX.api.Controllers.NotificationController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CMX.api.Controllers.NotificationController.#ctor(CMX.Entities.Models.Works.CWorksContext,Microsoft.Extensions.Configuration.IConfiguration,Microsoft.Extensions.Logging.ILogger{CMX.api.Controllers.NotificationController})">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CMX.api.Controllers.NotificationController.FilterNotificationByEmployee(CMX.Entities.Models.POST.NotificationsFilterByEmployeeRequest)">
+            <summary>
+            FilterNotificationByEmployee
+            </summary>
+            <response code="200">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthentication</response>
+            <response code="404">Not found</response>
+            <response code="500">Have Error</response>
+        </member>
+        <member name="M:CMX.api.Controllers.NotificationController.GetNotificationByEmployee(System.Int32)">
+            <summary>
+            GetNotificationByEmployee
+            </summary>
+            <response code="200">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthentication</response>
+            <response code="404">Not found</response>
+            <response code="500">Have Error</response>
+        </member>
+        <member name="T:CMX.api.Controllers.PromiseController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CMX.api.Controllers.PromiseController.#ctor(CMX.Entities.Models.Works.CWorksContext,Microsoft.Extensions.Configuration.IConfiguration,Microsoft.Extensions.Logging.ILogger{CMX.api.Controllers.PromiseController})">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CMX.api.Controllers.PromiseController.FilterByAccount(System.Int32)">
+            <summary>
+            FilterByAccount
+            </summary>
+            <response code="200">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthentication</response>
+            <response code="404">Not found</response>
+            <response code="500">Have Error</response>
+        </member>
+        <member name="M:CMX.api.Controllers.PromiseController.FilterInfoTable(System.Int32)">
+            <summary>
+            FilterInfoTable
+            </summary>
+            <response code="200">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthentication</response>
+            <response code="404">Not found</response>
+            <response code="500">Have Error</response>
+        </member>
+        <member name="M:CMX.api.Controllers.PromiseController.GetLastestPromiseId">
+            <summary>
+            GetLastestPromiseId
+            </summary>
+            <response code="200">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthentication</response>
+            <response code="404">Not found</response>
+            <response code="500">Have Error</response>
+        </member>
+        <member name="M:CMX.api.Controllers.PromiseController.GetPromiseCriteriaByAccountId(System.Int32)">
+            <summary>
+            Get all promise criteria by accountId
+            </summary>
+            <response code="200">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthentication</response>
+            <response code="404">Not found</response>
+            <response code="500">Have Error</response>
+        </member>
+        <member name="M:CMX.api.Controllers.PromiseController.Insert(CMX.Entities.Models.POST.AccountPromiseInsertRequest)">
+            <summary>
+            Insert
+            </summary>
+            <response code="200">Success</response>
+            <response code="201">Created</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthentication</response>
+            <response code="404">Not found</response>
+            <response code="500">Have Error</response>
+        </member>
+        <member name="M:CMX.api.Controllers.PromiseController.PromiseFilterByAccount(CMX.Entities.Models.POST.PromiseFilterByAccountRequest)">
+            <summary>
+            PromiseFilterByAccount
+            </summary>
+            <response code="200">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthentication</response>
+            <response code="404">Not found</response>
+            <response code="500">Have Error</response>
+        </member>
+        <member name="T:CMX.api.Controllers.RealtimeController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CMX.api.Controllers.RealtimeController.#ctor(CMX.Entities.Models.Works.CWorksContext,Microsoft.Extensions.Configuration.IConfiguration,Microsoft.Extensions.Logging.ILogger{CMX.api.Controllers.RealtimeController},CMX.api.Repositories.IOutstandingBalanceRepository)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CMX.api.Controllers.RealtimeController.GetOutstandingBalance(System.String)">
+            <summary>
+            GetOutstandingBalance
+            </summary>
+            <response code="200">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthentication</response>
+            <response code="404">Not found</response>
+            <response code="500">Have Error</response>
+        </member>
+        <member name="T:CMX.api.Controllers.TicketController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CMX.api.Controllers.TicketController.#ctor(CMX.Entities.Models.Works.CWorksContext,Microsoft.Extensions.Configuration.IConfiguration,Microsoft.Extensions.Logging.ILogger{CMX.api.Controllers.TicketController})">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CMX.api.Controllers.TicketController.GetActivityList">
+            <summary>
+            GetActivityList
+            </summary>
+            <response code="200">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthentication</response>
+            <response code="404">Not found</response>
+            <response code="500">Have Error</response>
+        </member>
+        <member name="M:CMX.api.Controllers.TicketController.GetActivityListById(System.Int32)">
+            <summary>
+            GetActivityListById
+            </summary>
+            <response code="200">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthentication</response>
+            <response code="404">Not found</response>
+            <response code="500">Have Error</response>
+        </member>
+        <member name="T:CMX.api.Controllers.WorkplanController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CMX.api.Controllers.WorkplanController.#ctor(CMX.Entities.Models.Works.CWorksContext,Microsoft.Extensions.Configuration.IConfiguration,Microsoft.Extensions.Logging.ILogger{CMX.api.Controllers.WorkplanController})">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CMX.api.Controllers.WorkplanController.DeleteComment(System.Int32)">
+            <summary>
+            DeleteComment
+            </summary>
+            <response code="200">Success</response>
+            <response code="204">No content</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthentication</response>
+            <response code="404">Not Found</response>
+            <response code="500">Have Error</response>
+        </member>
+        <member name="M:CMX.api.Controllers.WorkplanController.GetDetailActivityList(System.Int32)">
+            <summary>
+            GetDetailActivityList
+            </summary>
+            <response code="200">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthentication</response>
+            <response code="404">Not Found</response>
+            <response code="500">Have Error</response>
+        </member>
+        <member name="M:CMX.api.Controllers.WorkplanController.GetDetailApproverList(System.Int32)">
+            <summary>
+            GetDetailApproverList
+            </summary>
+            <response code="200">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthentication</response>
+            <response code="404">Not Found</response>
+            <response code="500">Have Error</response>
+        </member>
+        <member name="M:CMX.api.Controllers.WorkplanController.GetDetailCommentList(System.Int32)">
+            <summary>
+            GetDetailCommentList
+            </summary>
+            <response code="200">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthentication</response>
+            <response code="404">Not Found</response>
+            <response code="500">Have Error</response>
+        </member>
+        <member name="M:CMX.api.Controllers.WorkplanController.GetDetailDescription(System.Int32)">
+            <summary>
+            GetDetailDescription
+            </summary>
+            <response code="200">Success</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthentication</response>
+            <response code="404">Not Found</response>
+            <response code="500">Have Error</response>
+        </member>
+        <member name="M:CMX.api.Controllers.WorkplanController.InsertComment(CMX.Entities.Models.POST.CWXAccountTicketActivityActionInsertRequest)">
+            <summary>
+            InsertComment
+            </summary>
+            <response code="200">Success</response>
+            <response code="201">Created</response>
+            <response code="400">Bad request</response>
+            <response code="401">Unauthentication</response>
+            <response code="500">Have Error</response>
+        </member>
+        <member name="T:CMX.api.Oracle.OracleDynamicParameters">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CMX.api.Oracle.OracleDynamicParameters.Add(System.String,Oracle.ManagedDataAccess.Client.OracleDbType,System.Data.ParameterDirection,System.Object,System.Nullable{System.Int32})">
+            <summary>
+            
+            </summary>
+            <param name="name"></param>
+            <param name="oracleDbType"></param>
+            <param name="direction"></param>
+            <param name="value"></param>
+            <param name="size"></param>
+        </member>
+        <member name="M:CMX.api.Oracle.OracleDynamicParameters.Add(System.String,Oracle.ManagedDataAccess.Client.OracleDbType,System.Data.ParameterDirection)">
+            <summary>
+            
+            </summary>
+            <param name="name"></param>
+            <param name="oracleDbType"></param>
+            <param name="direction"></param>
+        </member>
+        <member name="M:CMX.api.Oracle.OracleDynamicParameters.AddParameters(System.Data.IDbCommand,Dapper.SqlMapper.Identity)">
+            <summary>
+            
+            </summary>
+            <param name="command"></param>
+            <param name="identity"></param>
+        </member>
+        <member name="T:CMX.api.Repositories.EmployeeRepository">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CMX.api.Repositories.EmployeeRepository.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CMX.api.Repositories.EmployeeRepository.GetConnection">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CMX.api.Repositories.EmployeeRepository.GetEmployeeDetails(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="empId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CMX.api.Repositories.EmployeeRepository.GetEmployeeList">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:CMX.api.Repositories.IEmployeeRepository">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CMX.api.Repositories.IEmployeeRepository.GetEmployeeDetails(System.Int32)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CMX.api.Repositories.IEmployeeRepository.GetEmployeeList">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:CMX.api.Repositories.IOutstandingBalanceRepository">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CMX.api.Repositories.IOutstandingBalanceRepository.GetOutstandingBalance(System.String)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:CMX.api.Repositories.OutstandingBalanceRepository">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CMX.api.Repositories.OutstandingBalanceRepository.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CMX.api.Repositories.OutstandingBalanceRepository.GetConnection">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CMX.api.Repositories.OutstandingBalanceRepository.GetOutstandingBalance(System.String)">
+            <summary>
+            
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:CMX.api.Settings.AdvancedConfiguration.ConfigLog4net(Microsoft.Extensions.Configuration.IConfiguration,Microsoft.Extensions.Logging.ILoggerFactory,System.String,System.String)" -->
+    </members>
+</doc>

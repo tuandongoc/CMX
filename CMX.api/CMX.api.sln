@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CMX.api", "CMX.api\CMX.api.csproj", "{D0A1D5A5-9E53-465D-88F2-3C17967CCE94}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CMX.Entities", "CMX.Entities\CMX.Entities.csproj", "{4BCA1EAF-9E66-40D9-82A3-9A2F0DEC0459}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMX.Logging", "CMX.Log\CMX.Logging.csproj", "{404772B0-F3B0-41AF-83C2-E26AF4B21B05}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0A1D5A5-9E53-465D-88F2-3C17967CCE94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0A1D5A5-9E53-465D-88F2-3C17967CCE94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0A1D5A5-9E53-465D-88F2-3C17967CCE94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0A1D5A5-9E53-465D-88F2-3C17967CCE94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BCA1EAF-9E66-40D9-82A3-9A2F0DEC0459}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BCA1EAF-9E66-40D9-82A3-9A2F0DEC0459}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BCA1EAF-9E66-40D9-82A3-9A2F0DEC0459}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BCA1EAF-9E66-40D9-82A3-9A2F0DEC0459}.Release|Any CPU.Build.0 = Release|Any CPU
+		{404772B0-F3B0-41AF-83C2-E26AF4B21B05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{404772B0-F3B0-41AF-83C2-E26AF4B21B05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{404772B0-F3B0-41AF-83C2-E26AF4B21B05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{404772B0-F3B0-41AF-83C2-E26AF4B21B05}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {96A44F1A-0F7A-4048-8AC4-BF630872EF21}
+	EndGlobalSection
+EndGlobal

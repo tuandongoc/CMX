@@ -1,0 +1,8 @@
+M:\TuanDN\HTC\SHB-master\CMX.api\CMX.Log\bin\Debug\netcoreapp2.1\CMX.Logging.deps.json
+M:\TuanDN\HTC\SHB-master\CMX.api\CMX.Log\bin\Debug\netcoreapp2.1\CMX.Logging.dll
+M:\TuanDN\HTC\SHB-master\CMX.api\CMX.Log\bin\Debug\netcoreapp2.1\CMX.Logging.pdb
+M:\TuanDN\HTC\SHB-master\CMX.api\CMX.Log\obj\Debug\netcoreapp2.1\CMX.Logging.AssemblyInfoInputs.cache
+M:\TuanDN\HTC\SHB-master\CMX.api\CMX.Log\obj\Debug\netcoreapp2.1\CMX.Logging.AssemblyInfo.cs
+M:\TuanDN\HTC\SHB-master\CMX.api\CMX.Log\obj\Debug\netcoreapp2.1\CMX.Logging.csproj.CoreCompileInputs.cache
+M:\TuanDN\HTC\SHB-master\CMX.api\CMX.Log\obj\Debug\netcoreapp2.1\CMX.Logging.dll
+M:\TuanDN\HTC\SHB-master\CMX.api\CMX.Log\obj\Debug\netcoreapp2.1\CMX.Logging.pdb

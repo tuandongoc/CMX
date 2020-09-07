@@ -1,0 +1,45 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <UserSecretsId>ffdc183e-7cf3-48a7-ad5a-6ca20f12d099</UserSecretsId>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>M:\TuanDN\HTC\SHB-master\CMX.api\CMX.api\CMX.api.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="wwwroot\**" />
+    <Content Remove="wwwroot\**" />
+    <EmbeddedResource Remove="wwwroot\**" />
+    <None Remove="wwwroot\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="logs\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="4.0.0" />
+    <PackageReference Include="System.DirectoryServices" Version="4.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CMX.Entities\CMX.Entities.csproj" />
+    <ProjectReference Include="..\CMX.Log\CMX.Logging.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Dapper">
+      <HintPath>..\dll\Dapper.dll</HintPath>
+    </Reference>
+    <Reference Include="Oracle.ManagedDataAccess">
+      <HintPath>..\dll\Oracle.ManagedDataAccess.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

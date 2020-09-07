@@ -1,0 +1,1 @@
+INFO  03-05-2019 15:21:30 CMX.api.Controllers.AccountController [7] - begin Get all account 

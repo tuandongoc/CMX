@@ -1,0 +1,21 @@
+ERROR 03-09-2020 16:20:01 Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware [8] - An unhandled exception has occurred while executing the request. [1] System.InvalidOperationException: The following errors occurred with attribute routing information:
+
+Error 1:
+Attribute routes with the same name 'AccountWorkplanControllerGetAccountWorkplanById' must have the same template:
+Action: 'CMX.api.Controllers.AccountWorkplanController.GetAccountWorkplanById (CMX.api)' - Template: 'api/AccountWorkplan/{accountId}'
+Action: 'CMX.api.Controllers.AccountWorkplanController.FilterAccountWorkplanByParams (CMX.api)' - Template: 'api/AccountWorkplan/filter'
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionDescriptorBuilder.Build(ApplicationModel application)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionDescriptorProvider.GetDescriptors()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionDescriptorProvider.OnProvidersExecuting(ActionDescriptorProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionDescriptorCollectionProvider.UpdateCollection()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionDescriptorCollectionProvider.get_ActionDescriptors()
+   at Microsoft.AspNetCore.Mvc.Internal.AttributeRoute.GetTreeRouter()
+   at Microsoft.AspNetCore.Mvc.Internal.AttributeRoute.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.RouteCollection.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+
